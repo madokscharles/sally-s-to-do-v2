@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #FFF3EA;
+    font-family: "Lato", sans-serif;
+}
+.logo {
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.logo img {
+    height: 100px;
+}
+.login-register {
+    float: right;
+    padding: 20px;
+    margin-top: -100px;
+    margin-right: 40px;
+}
+.login-register button {
+    background-color: #BD796F;
+    color: white;
+    font-size: 20px;
+    border-radius: 15px;
+    border: 1px solid #BD796F;
+    padding: 5px 15px;
+}
+.login-register button:hover {
+    color: #BD796F;
+    background-color: #FFF3EA;
+}
+.features {
+    text-align: center;
+    align-items: center;
+}
+#sally-features {
+    list-style-type: none;
+    padding: 0;
+    width: 30%;
+    margin-left: 200px;
+    margin-top: 40px;
+}
+#sally-features li {
+    display:inline-block;
+    background-color: #BD796F;
+    padding: 20px;
+    margin: 20px;
+    width: 150px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    border-radius: 15px;
+}
+#sally-features li:hover {
+    color: #BD796F;
+    background-color: #FFF3EA;
+}
+.sally img {
+    height: 700px;
+    margin-top: -460px;
+    float: right;
+    margin-right: 150px;
+}
+.footer {
+    background-color: #BD796F;
+    margin-top: 250px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+}
+@media screen and (max-width: 768px) {
+    .login-register {
+        margin-top: -90px;
+    }
+    #sally-features {
+        margin-left: 130px;
+    }
+    #sally-features li {
+        margin: 15px;
+    }
+    .sally img {
+        visibility: hidden;
+    }
+    .footer {
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width: 992px) {
+    #sally-features li {
+        margin: 10px;
+    }
+    .sally img {
+        height: 450px;
+        margin-top: -380px;
+        margin-right: -90px;
+    }
+}
+
+
