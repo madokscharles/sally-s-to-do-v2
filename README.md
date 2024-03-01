@@ -37,9 +37,12 @@ git clone https://github.com/madokscharles/sallys-todo.git
 Open the index.html file in your preferred web browser.
 Start managing your to-do list effectively!
 
-Screenshots
+## Screenshots
+![Home Page](https://github.com/madokscharles/sally-s-to-do/blob/main/images/Homepage.jpeg)
 
+![Login Page](https://github.com/madokscharles/sally-s-to-do/blob/main/images/Login.jpeg)
 
+![Login Page](https://github.com/madokscharles/sally-s-to-do/blob/main/images/Register.jpeg)
 
 ## Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests.
