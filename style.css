@@ -159,3 +159,11 @@ form > button:hover {
     float: right;
     color: black;
 }
+@media screen and (max-width: 768px) {
+    .login-character img {
+        height: 250px;
+    }
+    .login-page {
+        display: block;
+    }
+}
