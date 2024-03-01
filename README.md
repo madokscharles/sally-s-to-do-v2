@@ -33,17 +33,18 @@ Sally's To-Do is a project showcasing my HTML and CSS skills. The goal is to cre
 
 ```bash
 git clone https://github.com/madokscharles/sallys-todo.git
+```
 Open the index.html file in your preferred web browser.
 Start managing your to-do list effectively!
 
 Screenshots
-![Alt text](./images/Screenshot_1-3-2024_211950_127.0.0.1.jpeg?raw=true "Optional Title")
 
 
-Contributing
+
+## Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests.
 
-License
+## License
 This project is licensed under the MIT License.
 
 ## Author
