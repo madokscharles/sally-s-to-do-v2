@@ -1,3 +1,4 @@
+/* Home Page */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 html, body {
@@ -7,6 +8,9 @@ html, body {
     margin: 0;
     background-color: #FFF3EA;
     font-family: "Lato", sans-serif;
+}
+a {
+    text-decoration: none;
 }
 .logo {
     margin-left: 100px;
@@ -23,11 +27,14 @@ html, body {
 }
 .login-register button {
     background-color: #BD796F;
-    color: white;
+    
     font-size: 20px;
     border-radius: 15px;
     border: 1px solid #BD796F;
     padding: 5px 15px;
+}
+.login-register button > a {
+    color: white;
 }
 .login-register button:hover {
     color: #BD796F;
@@ -103,4 +110,52 @@ html, body {
     }
 }
 
-
+/* Login Page */
+.login-page {
+    display: flex;
+}
+.login-corner img {
+    height: 200px;
+    text-align: center;
+    align-items: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+input {
+    margin-bottom: 10px;
+}
+input {
+    background-color: #FEF2E9;
+    border: 1px solid #BD796F;
+    border-radius: 15px;
+    padding: 15px;
+}
+form > button {
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #E96990;
+    border: 1px solid #E96990;
+    color: white;
+    font-size: 18px;
+}
+form > button:hover {
+    background-color: #BD796F;
+    color: #FEF2E9;
+    border: 1px solid #FEF2E9;
+    cursor: pointer;
+}
+.remember-forgot {
+    padding-top: 5px;
+}
+.remember-forgot > input, label {
+    font-size: 12px;
+    cursor: pointer;
+}
+.remember-forgot a {
+    font-size: 12px;
+    float: right;
+    color: black;
+}
