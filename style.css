@@ -159,6 +159,16 @@ form > button:hover {
     float: right;
     color: black;
 }
+#reg {
+    color: black;
+    text-align: center;
+    align-items: center;
+}
+#log {
+    color: black;
+    text-align: center;
+    align-items: center;
+}
 @media screen and (max-width: 768px) {
     .login-character img {
         height: 250px;
