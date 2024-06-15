@@ -1,4 +1,4 @@
-# Sally's To-Do v1
+# Sally's To-Do v2
 
 Sally's To-Do version One is a simple and user-friendly to-do list web application designed for effective task management.
 
